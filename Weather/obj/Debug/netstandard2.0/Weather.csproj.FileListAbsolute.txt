@@ -12,3 +12,17 @@ C:\Users\egome\Documents\GitRepos\Weather\Weather\obj\Debug\netstandard2.0\Weath
 C:\Users\egome\Documents\GitRepos\Weather\Weather\obj\Debug\netstandard2.0\ref\Weather.dll
 C:\Users\egome\Documents\GitRepos\Weather\Weather\obj\Debug\netstandard2.0\Weather.pdb
 C:\Users\egome\Documents\GitRepos\Weather\Weather\obj\Debug\netstandard2.0\Weather.csprojAssemblyReference.cache
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\bin\Debug\netstandard2.0\Weather.deps.json
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\bin\Debug\netstandard2.0\Weather.dll
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\bin\Debug\netstandard2.0\ref\Weather.dll
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\bin\Debug\netstandard2.0\Weather.pdb
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.csprojAssemblyReference.cache
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Views\WeatherPage.xaml.g.cs
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfoInputs.cache
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.AssemblyInfo.cs
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.csproj.CoreCompileInputs.cache
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.dll
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\ref\Weather.dll
+C:\Users\egome\Documents\GitRepos\BeautifulWeather\Weather\obj\Debug\netstandard2.0\Weather.pdb

@@ -3,10 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Weather.Views.WeatherPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#2980B9">
             <SearchBar SearchCommand="{x:Binding SearchCommand}"
                        x:Name="Search"
+                       BackgroundColor="White"
+                       Placeholder="Latitude, Longide"
+                       Margin="15"
                        SearchCommandParameter="{x:Binding Text, Source={x:Reference Search}}"/>
+            <Frame Margin="25"
+                   BackgroundColor="#3498DB"
+                   VerticalOptions="FillAndExpand">
+                <Grid RowDefinitions="*,auto,*">
+                    <Label Text="{x:Binding Data.data[0].city_name}"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           FontSize="Large" />
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Grid.Row="1">
+                        <StackLayout>
+                            <Image Source="{x:Binding Data.data[0].weather.icon, 
+                            StringFormat='https://www.weatherbit.io/static/img/icons/{0}.png'}" />
+                            <Label Text="{x:Binding Data.data[0].weather.description}"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"
+                                   TextColor="White"
+                                   FontSize="Large" />
+                            <Label Text="{x:Binding Data.data[0].temp, StringFormat='{0}°'}"
+                                   TextColor="White"
+                                   FontSize="Header"
+                                   HorizontalTextAlignment="Center" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2">
+                        <Label Text="{x:Binding Data.data[0].wind_spd, 
+                            StringFormat='Wind speed: {0} m/s'}"
+                               TextColor="White"/>
+                        <Label Text="{x:Binding Data.data[0].rh, 
+                            StringFormat='Relative Humidity %'}"
+                               TextColor="White" />
+                    </StackLayout>
+                </Grid>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

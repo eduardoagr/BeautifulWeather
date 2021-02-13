@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
 namespace Weather.Model {
 
@@ -41,7 +41,16 @@ namespace Weather.Model {
         public float lat { get; set; }
         public Weather weather { get; set; }
         public string datetime { get; set; }
-        public float temp { get; set; }
+
+        private float _temp;
+        public float temp {
+            get { return Convert.ToInt64(_temp); }
+            set {
+                if (_temp != value) {
+                    _temp = value;
+                }
+            }
+        }
         public string station { get; set; }
         public float elev_angle { get; set; }
         public float app_temp { get; set; }

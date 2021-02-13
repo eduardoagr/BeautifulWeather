@@ -28,7 +28,11 @@ namespace Weather.ViewModel {
 
             SearchCommand = new Command(async (searchTerm) => {
 
-                await GetData(Constants.URL);
+                var term = searchTerm as string;
+                var data = term.Split(',');
+                var lat = data[0];
+                var lon = data[1];
+                await GetData($"https://api.weatherbit.io/v2.0/current?lat={lat}&lon={lon}&key=d51cc2931ead4b0682c4e7358a979b70");
 
             });
         }
