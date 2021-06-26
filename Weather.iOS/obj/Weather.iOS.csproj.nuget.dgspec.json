@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj": {}
+    "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj": {
+    "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
         "projectName": "Weather.iOS",
-        "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
+        "projectPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
         "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\obj\\",
+        "outputPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\egome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj": {
-                "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj"
+              "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj": {
+                "projectPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj"
               }
             }
           }
@@ -69,20 +71,22 @@
         }
       }
     },
-    "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj": {
+    "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj",
+        "projectUniqueName": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj",
         "projectName": "Weather",
-        "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj",
+        "projectPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj",
         "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\obj\\",
+        "outputPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\egome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -138,7 +142,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

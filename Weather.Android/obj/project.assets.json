@@ -2152,23 +2152,26 @@
   },
   "packageFolders": {
     "C:\\Users\\egome\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.Android\\Weather.Android.csproj",
+      "projectUniqueName": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.Android\\Weather.Android.csproj",
       "projectName": "Weather.Android",
-      "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.Android\\Weather.Android.csproj",
+      "projectPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.Android\\Weather.Android.csproj",
       "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.Android\\obj\\",
+      "outputPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\egome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2182,8 +2185,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj": {
-              "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather\\Weather.csproj"
+            "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj": {
+              "projectPath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather\\Weather.csproj"
             }
           }
         }

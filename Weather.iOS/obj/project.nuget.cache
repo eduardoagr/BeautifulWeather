@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HpwO+rE6qCNNwDf/bTdjGsItSEsZ74xr202mfqF4GH59WBkF/oYT7YMLEgz7IPRjvmd0ZHU6cUpwMhmqCXpwDw==",
+  "dgSpecHash": "qXuVuai8vW/DI3qbktVai70cPF+tPqLS2F8b4HONJBx41c/KZLMPw9Nx2t3iygigGKlWa6gORSvwT4+teeynnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
+  "projectFilePath": "C:\\Users\\egome\\Documents\\GitHub\\BeautifulWeather\\Weather.iOS\\Weather.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egome\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms\\5.0.0.1931\\xamarin.forms.5.0.0.1931.nupkg.sha512"
   ],
   "logs": []
